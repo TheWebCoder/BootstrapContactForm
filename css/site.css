@@ -1,40 +1,13 @@
-main>.container {
-    padding: 60px 15px 0;
-    margin-bottom: 5rem;
+body {
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 85%;
+    margin: 0 auto;
 }
 
-main > .container-fluid {
-    padding-top: 60px;
+
+form {
+    padding: 10px;
 }
 
-.sticky-footer {
-    position: sticky;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-body > main {
-    margin-top: 20px;
-    margin-bottom: 60px;
-}
-
-.homeBG {
-    width: 100%;
-    background: url("/img/GridBG.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.homeText {
-    font-family: modesto-open-shadow, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(195, 255, 0);
-}
-
-.minHeight {
-    min-height: 75vh;
-}
